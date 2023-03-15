@@ -7,22 +7,28 @@
 body{
     background-color: #444444;
     color: #ffffff;
+    
 }
+.full{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    margin-top: 5%;
+}
+
 .main{
 display: flex;
 justify-content: center;
-height: 50vh;
-margin-top: 4rem;
-padding:4rem;
+padding:2rem;
 }
+
 .main button{
     padding: 10px 20px;
     color:#ffffff;
     background-color: #664fe8;
-    border-radius: 15%;
-    height: 40px;
-    width:80px;
+    border-radius: 5%;
     margin: 0rem 1rem 0rem 1rem;
+    border:none;
 }
 
 #count{
@@ -33,4 +39,17 @@ padding:4rem;
     padding:10px 15px 10px 15px;
     border:1px solid black;
     border-radius: 20%;
+}
+
+#reset{
+    height: 40px;
+    width: 80px;
+    color:#ffffff;
+    background-color: #664fe8;
+    border-radius: 5%;
+    margin: 0rem 1rem 0rem 40rem;
+    border:none;
+}
+h1{
+    margin: 0rem 1rem 0rem 33rem;
 }
