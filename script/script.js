@@ -7,8 +7,6 @@ function newDelay() {
     clearInterval(newInterval)
         delay = Number(document.querySelector('#string_text').value);
         newInterval = setInterval(() => { randomNumber(); }, delay * 1000)
-
-
 }
 function randomNumber() {
     let rev = Math.floor(Math.random() * 1000);
